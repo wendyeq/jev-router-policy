@@ -1,0 +1,19 @@
+{
+  "shape": "vercel-ai-gateway evaluation response, secrets removed",
+  "body": {
+    "answers": {
+      "effort": {
+        "type": "choice",
+        "choice": "medium",
+        "probabilities": { "low": 0.1, "medium": 0.2, "high": 0.7 },
+        "confidence": 0.42
+      }
+    },
+    "rounding": { "probabilityDecimals": 2 },
+    "providerMetadata": {
+      "typesafe": { "confidence": { "effort": 0.42 } },
+      "gateway": { "cost": "0" }
+    },
+    "usage": { "inputTokens": 12, "outputTokens": 4 }
+  }
+}

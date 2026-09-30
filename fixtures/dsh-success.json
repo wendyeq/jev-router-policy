@@ -1,0 +1,15 @@
+{
+  "shape": "DSH direct evaluate JSON, question id route, secrets removed",
+  "body": {
+    "answers": {
+      "route": {
+        "choice": "medium",
+        "probabilities": { "low": 0.1, "medium": 0.2, "high": 0.7 },
+        "confidence": 0.42
+      }
+    },
+    "rounding": { "probabilityDecimals": 2 },
+    "usage": { "inputTokens": 12, "outputTokens": 4 },
+    "providerMetadata": { "gateway": { "cost": "0" } }
+  }
+}

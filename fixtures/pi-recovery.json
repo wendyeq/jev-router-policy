@@ -1,0 +1,19 @@
+{
+  "shape": "HTTP 200 whose choice is not the top probability; the SDK rejects this before returning",
+  "body": {
+    "answers": {
+      "effort": {
+        "type": "choice",
+        "choice": "low",
+        "probabilities": { "low": 0.1, "medium": 0.2, "high": 0.7 },
+        "confidence": 0.3
+      }
+    },
+    "rounding": { "probabilityDecimals": 2 },
+    "providerMetadata": {
+      "typesafe": { "confidence": { "effort": 0.3 } },
+      "gateway": { "cost": "0" }
+    },
+    "usage": { "inputTokens": 12, "outputTokens": 4 }
+  }
+}
